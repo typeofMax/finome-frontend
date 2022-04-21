@@ -1,12 +1,13 @@
 import Header from '../header/Header';
-import './App.css';
+import TopStories from '../topStories/TopStories';
 
-function App() {
-  return (
-    <div className="app">
-      <Header />
-    </div>
-  );
+const App = () => {
+    return (
+        <>
+            <Header />
+            <TopStories />
+        </>
+    );
 }
 
 export default App;
