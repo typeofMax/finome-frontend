@@ -1,11 +1,13 @@
 import { StrictMode } from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import { createRoot } from 'react-dom/client';
+
 import App from './components/app/App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import './index.css';
+
+const root = createRoot(document.getElementById('root'));
 root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+    <StrictMode>
+        <App />
+    </StrictMode>
 );
