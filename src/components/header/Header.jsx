@@ -1,9 +1,17 @@
+import HeaderTop from './headerTop/HeaderTop';
+import HeaderBottom from './headerBottom/HeaderBottom';
+
+import './header.css';
+
 const Header = () => {
     return (
-        <>
-            <h1>hello world</h1>
-        </>
-    )
+        <div className='header'>
+            <div className='container'>
+                <HeaderTop />
+                <HeaderBottom />
+            </div>
+        </div>
+    );
 }
 
 export default Header;
